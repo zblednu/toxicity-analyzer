@@ -1,3 +1,19 @@
+# models used
+
+## Bert 
+Huggingface's pretrained [toxic-bert model](https://huggingface.co/unitary/toxic-bert)
+Was trained on [jigsaw unintended bias dataset](https://huggingface.co/datasets/google/jigsaw_unintended_bias)
+
+
+## Neural
+[Tensorflow.js pretrained model](https://github.com/tensorflow/tfjs-models/tree/master/toxicity) based on Universal Sentence Encoder.
+
+Was trained on the [civil comments dataset](https://figshare.com/articles/data_json/7376747)
+
+## Dictionary
+[Bad-Words](https://www.npmjs.com/package/bad-words) javascript library
+
+
 # backend
 
 ## to run:
