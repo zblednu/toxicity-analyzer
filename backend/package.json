@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@huggingface/transformers": "^3.0.2",
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "bad-words": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "sharp": "^0.33.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "toxic-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
